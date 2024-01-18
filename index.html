@@ -18,7 +18,10 @@
   </head>
   <body>
     <!-- banner -->
-    <div class="banner navbar navbar-expand-lg bg-body-tertiary" id="banner">
+    <div
+      class="banner navbar navbar-expand-lg navbar-expand-md navbar-expand-sm bg-body-tertiary"
+      id="banner"
+    >
       <div
         class="layer-image"
         style="background-image: url('./assets/banner/1n.jpg')"
@@ -36,7 +39,8 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="bi bi-list"></i>
+          <!-- <span class="navbar-toggler-icon"></span> -->
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -264,7 +268,7 @@
     </div>
 
     <div class="gallery" id="gallery">
-      <div class="container section">
+      <div class="container-fluid section">
         <div class="title">
           <h1>Gallery</h1>
           <p>Peek Into Our World</p>
@@ -323,6 +327,11 @@
               alt="Image 1"
               onclick="openFullscreen(this)"
             />
+            <img
+              src="./assets/Screenshot 2024-01-19 020951.png"
+              alt="Image 1"
+              onclick="openFullscreen(this)"
+            />
           </div>
           <button class="next-button">&#10095;</button>
         </div>
@@ -339,7 +348,7 @@
           <p>Choice Of Rooms</p>
         </div>
         <div class="room-cards row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div
               class="card mb-5"
               style="max-width: 540px"
@@ -372,7 +381,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div
               class="card mb-5"
               style="max-width: 540px"
@@ -405,7 +414,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div
               class="card mb-5"
               style="max-width: 540px"
@@ -439,7 +448,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 col-md-12 col-sm-12">
             <div
               class="card mb-5"
               style="max-width: 540px"
@@ -544,13 +553,9 @@
               <span class="text">OR</span>
               <div class="divider"></div>
             </div>
-            <button
-              type="button"
-              onclick="scrollToSection('banner')"
-              class="btn btn-lg btn-warning"
-            >
+            <a href="tel:73848 04148" class="btn btn-lg btn-warning">
               Make a Booking<i class="bi bi-arrow-right-short"></i>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -605,30 +610,46 @@
           </ul>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item social-icons">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                target="_blank"
+                href="#"
                 ><i class="bi bi-facebook"></i
               ></a>
             </li>
             <li class="nav-item social-icons">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                target="_blank"
+                href="https://www.instagram.com/mathaburuhillresort?igsh=eGQzNnE4Z29tbnVx"
                 ><i class="bi bi-instagram"></i
               ></a>
             </li>
             <li class="nav-item social-icons">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                target="_blank"
+                href="tel:73848 04148"
                 ><i class="bi bi-whatsapp"></i
               ></a>
             </li>
             <li class="nav-item social-icons">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                target="_blank"
+                href="https://www.google.com/travel/hotels/s/UwwmCFMV5ZsLmfwF8"
                 ><i class="bi bi-google"></i
               ></a>
             </li>
           </ul>
           <ul class="navbar-nav me-auto mb-2 mt-5 mt-lg-5 mb-lg-0 contacts">
-            <li class="nav-item"><span>+91 7384804148</span></li>
+            <li class="nav-item"><span>+91&nbsp;7384804148</span></li>
             <li class="nav-item"><span>exmple@gmail.com</span></li>
-            <li class="nav-item"><span>Sonkupi, Baghmundi </span></li>
+            <li class="nav-item"><span>Sonkupi,&nbsp;Baghmundi </span></li>
           </ul>
         </div>
       </div>
